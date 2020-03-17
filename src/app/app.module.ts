@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { StarComponent } from './star/star.component';
 import { HeaderComponent } from './header/header.component';
+import { AdvancedHighlightDirective } from './advanced-highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     StarComponent,
-    HeaderComponent
+    HeaderComponent,
+    AdvancedHighlightDirective
   ],
   imports: [
     BrowserModule
