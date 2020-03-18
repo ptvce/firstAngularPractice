@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  display: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  displayTemp() {
+    this.display = !this.display;
+  }
 }
